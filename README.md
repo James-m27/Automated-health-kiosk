@@ -14,6 +14,7 @@ The software architecture is built entirely in Python 3 and deployed on a Raspbe
 * **`printertest.py`**: A diagnostic script for testing the 9600 baud UART connection to the ESC/POS thermal printer.
 * **`max30102.py`**: I2C hardware driver for the MAX30102 pulse oximeter and heart rate sensor. *(See Acknowledgements)*
 * **`hrcalc.py`**: Algorithmic processor for calculating SpO2 and Heart Rate from raw IR/Red light absorption data. *(See Acknowledgements)*
+* **`bp_input.ino`**: C++ firmware for the Arduino Nano. Handles the strict 100Hz analog-to-digital sampling of the NIBP pressure transducer and streams the raw data via USB serial (115200 baud) to the Raspberry Pi for signal processing.
 
 ## Hardware Dependencies
 
