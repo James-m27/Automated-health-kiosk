@@ -1,0 +1,7 @@
+customtkinter==5.2.0
+numpy
+scipy
+pyserial
+smbus2
+mlx90614
+RPi.GPIO
